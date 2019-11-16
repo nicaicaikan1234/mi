@@ -108,11 +108,12 @@
   top: 89px;
   left: -95px;
   width: 243px;
-  height: 420px;
+  height: 419px;
   margin: 0;
   padding: 20px 0;
   color: #fff;
   background: rgba(105, 101, 101, 0.6);
+  z-index: 20;
 }
 #head .head-b .head-b-nav .head-b-nav-c .head-b-nav-c-banner > ul > li:hover > div {
   display: block;
@@ -143,7 +144,7 @@
 }
 #head .head-b .head-b-nav .head-b-nav-c .head-b-nav-c-banner > ul > li > div > ul {
   width: 248px;
-  height: 461px;
+  height: 460px;
   background: #fff;
   float: left;
 }
@@ -189,6 +190,8 @@
   background: #fff;
   overflow: hidden;
   height: 0;
+  position: absolute;
+  top: 140px;
 }
 #head .head-b .head-b-navbtn .head-b-nav-c-li-div {
   position: relative;

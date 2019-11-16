@@ -125,6 +125,13 @@
       "unicode_decimal": 58932
     },
     {
+      "icon_id": "5890621",
+      "name": "左",
+      "font_class": "zuo1",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
       "icon_id": "8252048",
       "name": "扳手",
       "font_class": "icon_repair",
