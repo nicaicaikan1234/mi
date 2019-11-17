@@ -1,0 +1,342 @@
+@charset "utf-8";
+a {
+  color: #616161;
+}
+.a-main {
+  background: #f7f7f7;
+}
+.a-main > .a-n {
+  position: sticky;
+  top: 0;
+  border-top: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 0 10px 20px -11px #ccc;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.a-main > .a-n > .a-nav {
+  width: 1224px;
+  height: 60px;
+  margin: 0 auto;
+}
+.a-main > .a-n > .a-nav > h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #212121;
+  float: left;
+}
+.a-main > .a-n > .a-nav > .a-nav-left {
+  float: left;
+  margin-left: 5px;
+}
+.a-main > .a-n > .a-nav > .a-nav-left > span {
+  margin: 0.25rem;
+}
+.a-main > .a-n > .a-nav > .a-nav-left > a {
+  line-height: 60px;
+  font-size: 12px;
+}
+.a-main > .a-n > .a-nav > .a-nav-left > a:hover {
+  color: #ff6700;
+}
+.a-main > .a-n > .a-nav > .a-nav-right {
+  margin-top: 22px;
+  float: right;
+}
+.a-main > .a-n > .a-nav > .a-nav-right > a {
+  font-size: 14px;
+}
+.a-main > .a-n > .a-nav > .a-nav-right > a:hover {
+  color: #ff6700;
+}
+.a-main > .a-n > .a-nav > .a-nav-right > span {
+  font-size: 14px;
+  margin: 0 0.25rem;
+}
+.a-main > .a-shop-main {
+  background: #fff;
+}
+.a-main > .a-shop-main > #a-shop {
+  width: 1224px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 12px;
+  position: relative;
+  background: #fff;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left {
+  float: left;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis {
+  overflow: hidden;
+  width: 560px;
+  height: 560px;
+  position: relative;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > ul {
+  width: 2000px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > ul > li {
+  float: left;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > ul > li img {
+  width: 560px;
+  height: 560px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .quan {
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .quan > .cl {
+  background: #a3a3a3;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .quan > span {
+  float: left;
+  width: 60px;
+  height: 2px;
+  background: #ccc;
+  border-radius: 2px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p {
+  position: absolute;
+  top: 50%;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+  right: 0;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 69px;
+  cursor: pointer;
+  color: #757575;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:nth-of-type(2) {
+  right: 518px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:nth-of-type(2) > span {
+  font-size: 28px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p > span {
+  font-size: 24px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right {
+  float: right;
+  margin-left: 12px;
+  width: 606px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #212121;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > p {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  line-height: 20px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > p > span {
+  color: #ff6700;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main {
+  color: #333;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > span {
+  display: block;
+  color: #ff6700;
+  font-size: 14px;
+  margin-top: 14px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > p {
+  font-size: 18px;
+  color: #ff6700;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0 20px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address > div {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding: 30px 40px 30px 32px;
+  font-size: 14px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address > div > span {
+  margin-right: 14px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address > div > .address-logo {
+  font-size: 20px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address > div > .address-x {
+  cursor: pointer;
+  color: #ff6700;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-address > div > p {
+  color: #ff6700;
+  line-height: 24px;
+  padding-left: 38px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > p {
+  font-size: 18px;
+  color: #333;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul {
+  margin-left: -6px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul > .edition-over {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul > .edition-over > .shop-price {
+  color: #757575;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul > li {
+  transition: all 0.2s ease;
+  float: left;
+  width: 298px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  margin-left: 6px;
+  margin-top: 15px;
+  line-height: 42px;
+  height: 42px;
+  position: relative;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul > li > .shop-ed {
+  text-align: center;
+  width: 170px;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 30px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main .shop-edition > ul > li > .shop-price {
+  float: right;
+  padding-right: 44px;
+  color: #b0b0b0;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > p {
+  font-size: 18px;
+  color: #333;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > ul {
+  margin-left: -6px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > ul > .color-over {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > ul > li {
+  transition: all 0.2s ease;
+  float: left;
+  width: 298px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  margin-left: 6px;
+  margin-top: 15px;
+  line-height: 42px;
+  height: 42px;
+  position: relative;
+  text-align: center;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > ul > li > .color-img {
+  width: 16px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-color > ul > li > .color-name {
+  margin-left: 14px;
+  color: #b0b0b0;
+  vertical-align: middle;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-total {
+  background: #f9f9fa;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-total > p {
+  font-size: 14px;
+  color: #616161;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-total > p > span {
+  float: right;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-total > span {
+  display: block;
+  line-height: 30px;
+  color: #ff6700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-btn {
+  margin: 10px 0 20px 0;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-btn > .addcar {
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  background: #ff6700;
+  border-color: #ff6700;
+  color: #fff;
+  margin-right: 10px;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-btn > .like {
+  width: 140px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #b0b0b0;
+  text-align: center;
+  transition: all 0.4s;
+  font-size: 16px;
+  position: relative;
+  background: #b0b0b0;
+  color: #fff;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .fahuo {
+  width: 470px;
+  margin: 14px 0;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .fahuo > img {
+  width: 100%;
+}
+.a-main > .jiage {
+  width: 1224px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.a-main > .jiage > h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em 0;
+}
+.a-main > .jiage > div {
+  width: 100%;
+  height: 198px;
+  background: url(../images/jiage.jpeg);
+  background-size: contain;
+}

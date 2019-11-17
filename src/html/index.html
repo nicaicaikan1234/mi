@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../style/headfoot.css">
   <link rel="stylesheet" href="../font/font_iiiyblg4fvi/iconfont.css">
   <link rel="stylesheet" href="../style/index.css">
-  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="../../node_modules/requirejs/require.js" data-main="../js/app.js"></script>
   <script>
 
@@ -31,19 +30,19 @@
 
     <!-------------------- banner轮播 -------------------------->
     <a href="javascript:;">
-      <div class="i-banner-vis">
-        <ul>
+      <div class="a-banner-vis">
+        <ul class="clear">
           <li><img src="../images/banner.webp" alt=""></li>
-          <li><img src="" alt=""></li>
-          <li><img src="" alt=""></li>
+          <li><img src="../images/banner13.webp" alt=""></li>
+          <li><img src="../images/banner3.jpg" alt=""></li>
         </ul>
         <div class="quan">
           <span class="cl"></span>
           <span></span>
           <span></span>
         </div>
-        <p class="i-banner-vis-p"><span class="iconfont icon-zuo"></span></p>
-        <p class="i-banner-vis-p"><span class="iconfont icon-zuo1"></span></p>
+        <p class="a-banmner-vis-p"><span class="iconfont icon-zuo"></span></p>
+        <p class="a-banmner-vis-p"><span class="iconfont icon-zuo1"></span></p>
       </div>
     </a>
 
@@ -370,7 +369,7 @@
       <div class="i-main-box2">
         <div class="clear">
           <h2>手机</h2>
-        <a>查看全部 <span class="iconfont icon-right"></span></a>
+          <a>查看全部 <span class="iconfont icon-right"></span></a>
         </div>
         <div class="i-box2-m clear">
           <div class="i-box2-m-l">
@@ -379,6 +378,64 @@
             </a>
           </div>
           <div class="i-box2-m-r">
+            <ul id="i-box2-phone">
+
+
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 手机结束 -------------------------------------------------------->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- 广告开始 -->
+
+      <div class="i-box1-banner">
+        <a href="javascript:;">
+          <img src="../images/guanggao.webp" alt="">
+        </a>
+      </div>
+
+      <!-- 广告结束 -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+
+      <!------------------------------------------------- 家电开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>家电</h2>
+        </div>
+
+        <!------------------------------------------------- 左边列表 --------------------------------------->
+        <div class="i-box2-m clear">
+          <div class="i-box2-m-l">
+            <div>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+            </div>
+          </div>
+
+
+
+          <!--------------------------------------------------- 右边列表 ---------------------------------------------->
+          <div class="i-box2-m-r">
+            <!------------------------------------------------ 切换按钮-------------------------------------------------- -->
+            <div id="jiadian-btn">
+              <span class="btn-over">热门</span>
+              <span>电视影音</span>
+            </div>
+            <!--------------------------------------------------- 产品 ----------------------------------------------------------->
             <ul>
               <li>
                 <a href="javascript:;">
@@ -409,7 +466,7 @@
                   <p>一杯水，是一家人的安心</p>
                   <p>
                     <span>49.5元</span>
-                    <del>99元</del>
+
                   </p>
                 </a>
               </li>
@@ -421,7 +478,7 @@
                   <p>一杯水，是一家人的安心</p>
                   <p>
                     <span>49.5元</span>
-                    <del>99元</del>
+
                   </p>
                 </a>
               </li>
@@ -433,7 +490,7 @@
                   <p>一杯水，是一家人的安心</p>
                   <p>
                     <span>49.5元</span>
-                    <del>99元</del>
+
                   </p>
                 </a>
               </li>
@@ -445,7 +502,7 @@
                   <p>一杯水，是一家人的安心</p>
                   <p>
                     <span>49.5元</span>
-                    <del>99元</del>
+
                   </p>
                 </a>
               </li>
@@ -457,20 +514,37 @@
                   <p>一杯水，是一家人的安心</p>
                   <p>
                     <span>49.5元</span>
-                    <del>99元</del>
+
                   </p>
                 </a>
               </li>
 
-              <li>
-                <a href="javascript:;">
-                  <img src="../images/shuihu.png" alt="">
-                  <h3>米家电水壶 白色</h3>
-                  <p>一杯水，是一家人的安心</p>
-                  <p>
-                    <span>49.5元</span>
-                  </p>
-                </a>
+
+              <li class="li-none">
+
+                <ul>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <img src="../images/min-gg.webp" alt="">
+                      <div>
+                        <h3>Air 13.3" 2019款 </h3>
+                        <p>
+                          4499元起
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <span class="iconfont icon-youjiantou"></span>
+                      <div>
+                        浏览更多
+                        <span>热门</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
               </li>
             </ul>
 
@@ -479,7 +553,7 @@
       </div>
 
 
-      <!------------------------------------------------- 结束开始 -------------------------------------------------------->
+      <!------------------------------------------------- 家电结束 -------------------------------------------------------->
       <!--  -->
       <!--  -->
       <!--  -->
@@ -495,6 +569,729 @@
       <!--  -->
       <!--  -->
       <!--  -->
+
+
+      <!------------------------------------------------- 智能开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>家电</h2>
+        </div>
+
+        <!------------------------------------------------- 左边列表 --------------------------------------->
+        <div class="i-box2-m clear">
+          <div class="i-box2-m-l">
+            <div>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+            </div>
+          </div>
+
+
+
+          <!--------------------------------------------------- 右边列表 ---------------------------------------------->
+          <div class="i-box2-m-r">
+            <!------------------------------------------------ 切换按钮-------------------------------------------------- -->
+            <div id="jiadian-btn">
+              <span class="btn-over">热门</span>
+              <span>电视影音</span>
+            </div>
+            <!--------------------------------------------------- 产品 ----------------------------------------------------------->
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+
+              <li class="li-none">
+
+                <ul>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <img src="../images/min-gg.webp" alt="">
+                      <div>
+                        <h3>Air 13.3" 2019款 </h3>
+                        <p>
+                          4499元起
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <span class="iconfont icon-youjiantou"></span>
+                      <div>
+                        浏览更多
+                        <span>热门</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 智能结束 -------------------------------------------------------->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- 广告开始 -->
+
+      <div class="i-box1-banner">
+        <a href="javascript:;">
+          <img src="../images/guanggao.webp" alt="">
+        </a>
+      </div>
+
+      <!-- 广告结束 -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+
+
+
+      <!------------------------------------------------- 搭配开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>家电</h2>
+        </div>
+
+        <!------------------------------------------------- 左边列表 --------------------------------------->
+        <div class="i-box2-m clear">
+          <div class="i-box2-m-l">
+            <div>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+            </div>
+          </div>
+
+
+
+          <!--------------------------------------------------- 右边列表 ---------------------------------------------->
+          <div class="i-box2-m-r">
+            <!------------------------------------------------ 切换按钮-------------------------------------------------- -->
+            <div id="jiadian-btn">
+              <span class="btn-over">热门</span>
+              <span>电视影音</span>
+            </div>
+            <!--------------------------------------------------- 产品 ----------------------------------------------------------->
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+
+              <li class="li-none">
+
+                <ul>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <img src="../images/min-gg.webp" alt="">
+                      <div>
+                        <h3>Air 13.3" 2019款 </h3>
+                        <p>
+                          4499元起
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <span class="iconfont icon-youjiantou"></span>
+                      <div>
+                        浏览更多
+                        <span>热门</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 搭配结束 -------------------------------------------------------->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- 广告开始 -->
+
+      <div class="i-box1-banner">
+        <a href="javascript:;">
+          <img src="../images/guanggao.webp" alt="">
+        </a>
+      </div>
+
+      <!-- 广告结束 -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+
+
+      <!------------------------------------------------- 配件开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>家电</h2>
+        </div>
+
+        <!------------------------------------------------- 左边列表 --------------------------------------->
+        <div class="i-box2-m clear">
+          <div class="i-box2-m-l">
+            <div>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+            </div>
+          </div>
+
+
+
+          <!--------------------------------------------------- 右边列表 ---------------------------------------------->
+          <div class="i-box2-m-r">
+            <!------------------------------------------------ 切换按钮-------------------------------------------------- -->
+            <div id="jiadian-btn">
+              <span class="btn-over">热门</span>
+              <span>电视影音</span>
+            </div>
+            <!--------------------------------------------------- 产品 ----------------------------------------------------------->
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+
+              <li class="li-none">
+
+                <ul>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <img src="../images/min-gg.webp" alt="">
+                      <div>
+                        <h3>Air 13.3" 2019款 </h3>
+                        <p>
+                          4499元起
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <span class="iconfont icon-youjiantou"></span>
+                      <div>
+                        浏览更多
+                        <span>热门</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 配件结束 -------------------------------------------------------->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- 广告开始 -->
+
+      <div class="i-box1-banner">
+        <a href="javascript:;">
+          <img src="../images/guanggao.webp" alt="">
+        </a>
+      </div>
+
+      <!-- 广告结束 -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+
+
+      <!------------------------------------------------- 周边开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>家电</h2>
+        </div>
+
+        <!------------------------------------------------- 左边列表 --------------------------------------->
+        <div class="i-box2-m clear">
+          <div class="i-box2-m-l">
+            <div>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+              <a href="javascript:;">
+                <img src="../images/l-she.webp" alt="">
+              </a>
+            </div>
+          </div>
+
+
+
+          <!--------------------------------------------------- 右边列表 ---------------------------------------------->
+          <div class="i-box2-m-r">
+            <!------------------------------------------------ 切换按钮-------------------------------------------------- -->
+            <div id="jiadian-btn">
+              <span class="btn-over">热门</span>
+              <span>电视影音</span>
+            </div>
+            <!--------------------------------------------------- 产品 ----------------------------------------------------------->
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <img src="../images/shuihu.png" alt="">
+                  <h3>米家电水壶 白色</h3>
+                  <p>一杯水，是一家人的安心</p>
+                  <p>
+                    <span>49.5元</span>
+
+                  </p>
+                </a>
+              </li>
+
+
+              <li class="li-none">
+
+                <ul>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <img src="../images/min-gg.webp" alt="">
+                      <div>
+                        <h3>Air 13.3" 2019款 </h3>
+                        <p>
+                          4499元起
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="clear">
+                    <a href="javascript:;">
+                      <span class="iconfont icon-youjiantou"></span>
+                      <div>
+                        浏览更多
+                        <span>热门</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 周边结束 -------------------------------------------------------->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!-- 广告开始 -->
+
+      <div class="i-box1-banner">
+        <a href="javascript:;">
+          <img src="../images/guanggao.webp" alt="">
+        </a>
+      </div>
+
+      <!-- 广告结束 -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+
+
+      <!------------------------------------------------- 视频开始 -------------------------------------------------------->
+
+      <div class="i-main-box2">
+        <div class="clear">
+          <h2>视频</h2>
+          <a>查看全部 <span class="iconfont icon-right"></span></a>
+        </div>
+        <div class="i-box2-m clear">
+          <dl class="i-main-video">
+            <a href="javascript:;">
+              <dt>
+                <img src="../images/shipin.webp" alt="">
+                <p class="iconfont icon-zuo"></p>
+              </dt>
+              <dd>
+                小米MIX Alpha 开箱视频
+              </dd>
+            </a>
+          </dl>
+
+          <dl class="i-main-video">
+            <a href="javascript:;">
+              <dt>
+                <img src="../images/shipin.webp" alt="">
+                <p class="iconfont icon-zuo"></p>
+              </dt>
+              <dd>
+                小米MIX Alpha 开箱视频
+              </dd>
+            </a>
+          </dl>
+
+          <dl class="i-main-video">
+            <a href="javascript:;">
+              <dt>
+                <img src="../images/shipin.webp" alt="">
+                <p class="iconfont icon-zuo"></p>
+              </dt>
+              <dd>
+                小米MIX Alpha 开箱视频
+              </dd>
+            </a>
+          </dl>
+
+          <dl class="i-main-video">
+            <a href="javascript:;">
+              <dt>
+                <img src="../images/shipin.webp" alt="">
+                <p class="iconfont icon-zuo"></p>
+              </dt>
+              <dd>
+                小米MIX Alpha 开箱视频
+              </dd>
+            </a>
+          </dl>
+        </div>
+      </div>
+
+
+      <!------------------------------------------------- 视频结束 -------------------------------------------------------->
 
 
     </div>

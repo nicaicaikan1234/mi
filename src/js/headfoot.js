@@ -1,15 +1,17 @@
 define(["jquery"], function ($) {
     return {
         // 获取页面头部内容
-        getHead: function () {
+        getHead: function (val) {
 
             $.ajax({
                 type: "get",
                 url: "./header.html",
                 success: function (response) {
                     $("#head")[0].innerHTML = response;
+                    val&&$(val).css("display","none");
                 }
             });
+            
         },
         // 获取页面尾部内容
         getFoot: function () {

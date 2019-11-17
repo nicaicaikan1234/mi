@@ -20,6 +20,13 @@
       "unicode_decimal": 58893
     },
     {
+      "icon_id": "1065435",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
       "icon_id": "1105010",
       "name": "手机",
       "font_class": "shouji",
