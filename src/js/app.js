@@ -1,12 +1,15 @@
 require.config({
     paths: {
         jquery: "../../node_modules/jquery/dist/jquery.min",
-        appG:"./index/appG",
+        appG:"./lib/appG",
         jquerylun:"./jquerylun",
-        headfoot:'./headfoot'
+        headfoot:'./headfoot',
+        jquerylazyloadmin:'./jquerylazyloadmin'
+
     },
     shim: {
-
+        jquerylazyloadmin:['jquery'],
+        jquerylun:['jquery']
     }
 })
 
@@ -22,11 +25,18 @@ require(['jquery', 'headfoot'], function ($, hf) {
 //  商品加载
 require(['jquery', 'appG'], function ($, ag) {
     ag.getShop();
+    ag.xxk();
 })
+
+//图片懒加载
+require(['jquery', 'jquerylazyloadmin'], function ($, jl) {
+    $("img.lazy").lazyload({effect: "fadeIn"});
+})
+
 
 // 轮播图
 require(['jquery', 'jquerylun'], function ($, lb) {
-    $(".i-banner-vis").lb.lun();
+    $(".i-banner-vis").lun();
    
 })
 

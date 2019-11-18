@@ -19,12 +19,15 @@ h2 {
   margin: 0 auto;
 }
 .i-banner > a .i-banner-vis {
+  width: 1225px;
   height: 460px;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 .i-banner > a .i-banner-vis > ul {
   width: 15000px;
+  position: absolute;
   height: 460px;
 }
 .i-banner > a .i-banner-vis > ul > li {
@@ -320,12 +323,12 @@ h2 {
   float: left;
   position: relative;
 }
-#i-main > .i-main > .i-main-box2 > .i-box2-m > .i-box2-m-r > #jiadian-btn {
+#i-main > .i-main > .i-main-box2 > .i-box2-m > .i-box2-m-r > .jiadian-btn {
   position: absolute;
   top: -38px;
   right: 0;
 }
-#i-main > .i-main > .i-main-box2 > .i-box2-m > .i-box2-m-r > #jiadian-btn > span {
+#i-main > .i-main > .i-main-box2 > .i-box2-m > .i-box2-m-r > .jiadian-btn > span {
   cursor: pointer;
   float: left;
   margin-left: 30px;

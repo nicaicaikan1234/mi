@@ -5,7 +5,7 @@ define(["jquery"], function ($) {
 
             $.ajax({
                 type: "get",
-                url: "./header.html",
+                url: "http://localhost:8080/199854/mi/src/html/header.html",
                 success: function (response) {
                     $("#head")[0].innerHTML = response;
                     val&&$(val).css("display","none");

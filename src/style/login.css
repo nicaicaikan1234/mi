@@ -1,0 +1,142 @@
+@charset "utf-8";
+.l-head {
+  width: 1130px;
+  height: 98px;
+  margin: 0 auto;
+}
+.l-head > a {
+  display: block;
+  width: 200px;
+  height: 100%;
+  background: url(../images/mistore_logo.png);
+  text-indent: -9999px;
+}
+.l-main {
+  position: relative;
+}
+.l-main > a {
+  display: block;
+  width: 100%;
+  height: 588px;
+  background: url(../images/denglubanner.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.l-main > div {
+  position: relative;
+  width: 1130px;
+  margin: 0 auto;
+}
+.l-main > div > .l-list {
+  position: relative;
+  width: 410px;
+  height: 560px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.l-main > div > .l-list > p {
+  height: 32px;
+  text-align: center;
+  padding: 27px 0 24px;
+  line-height: 32px;
+}
+.l-main > div > .l-list > p > .l-list-over {
+  color: #ff6700;
+}
+.l-main > div > .l-list > p > a {
+  text-align: center;
+  font-size: 24px;
+}
+.l-main > div > .l-list > p > span {
+  display: inline;
+  width: 1px;
+  height: 24px;
+  margin: 0 35px 0 42px;
+  border: 1px solid #e0e0e0;
+}
+.l-main > div > .l-list > div {
+  width: 348px;
+  margin: 0 31px;
+  height: 400px;
+}
+.l-main > div > .l-list .l-over {
+  display: none;
+}
+.l-main > div > .l-list > .l-int > .l-list-mode {
+  width: 100%;
+  padding-top: 143px;
+}
+.l-main > div > .l-list > .l-int > .l-list-mode img {
+  width: 100%;
+}
+.l-main > div > .l-list > .l-int > p {
+  font-size: 14px;
+  color: #999;
+}
+.l-main > div > .l-list > .l-int > p > input {
+  width: 316px;
+  height: 22px;
+  line-height: 22px;
+  padding: 13px 16px 13px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #e0e0e0;
+  color: #757575;
+  font-size: 14px;
+}
+.l-main > div > .l-list > .l-int > p > .l-submit {
+  background: #ff6700;
+  display: block;
+  width: 318px;
+  height: 22px;
+  line-height: 22px;
+  padding: 13px 16px 13px 14px;
+  margin-bottom: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+}
+.l-main > div > .l-list > .l-int > p > span {
+  float: right;
+}
+.l-main > div > .l-list > .l-int > p a {
+  color: #999;
+}
+.l-main > div > .l-list > .l-int > p a:hover {
+  color: #ff6700;
+}
+.l-main > div > .l-list > .l-int > p > a {
+  color: #ff6700;
+}
+.l-main > div > .l-list > .l-ma {
+  text-align: center;
+  position: absolute;
+  top: 220px;
+}
+.l-main > div > .l-list > .l-ma > img {
+  margin-bottom: 14px;
+}
+.l-main > div > .l-list > .l-ma > p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.l-main > div > .l-list > .l-ma > p > span {
+  color: #ff6700;
+}
+.l-foot {
+  width: 100%;
+  padding-top: 100px;
+  height: 80px;
+  text-align: center;
+  font-size: 14px;
+  color: #757575;
+}
+.l-foot > p {
+  padding: 10px;
+}
+.l-foot > p > a:hover {
+  color: #333;
+}

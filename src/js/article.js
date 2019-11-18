@@ -1,7 +1,8 @@
 require.config({
     paths: {
         jquery: "../../node_modules/jquery/dist/jquery.min",
-        headfoot:'./headfoot'
+        headfoot: './headfoot',
+        ariticleG: "./lib/articleG"
     },
     shim: {
 
@@ -14,5 +15,11 @@ require(['jquery', 'headfoot'], function ($, hf) {
     hf.getFoot();
     hf.downList();
     hf.searchBox();
+})
+
+// 产品加载
+
+require(["jquery", "ariticleG"], function ($, aG) {
+    aG.getData();
 })
 

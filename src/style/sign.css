@@ -1,0 +1,106 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+.s-main {
+  background: #f9f9f9;
+  color: #666;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+}
+.s-main > .s-list {
+  width: 786px;
+  height: 518px;
+  background: #fff;
+  margin: 0 auto;
+}
+.s-main > .s-list > .s-list-logo {
+  display: block;
+  width: 49px;
+  height: 48px;
+  margin: 0 auto;
+  background: url(../images/logo.png);
+  text-indent: -9999px;
+  margin-bottom: 40px;
+}
+.s-main > .s-list > h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #333;
+}
+.s-main > .s-list > .s-list-b {
+  width: 332px;
+  padding: 30px 0;
+  line-height: 20px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+.s-main > .s-list > .s-list-b > a {
+  display: block;
+  margin-top: 60px;
+}
+.s-main > .s-list > .s-list-b > a > span {
+  font-weight: bold;
+  color: #333;
+}
+.s-main > .s-list > .s-list-b > div {
+  text-align: left;
+  margin-bottom: 24px;
+}
+.s-main > .s-list > .s-list-b > div > div {
+  width: 332px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+  margin: 4px 0;
+}
+.s-main > .s-list > .s-list-b > div > a {
+  display: block;
+  text-align: center;
+  width: 332px;
+  height: 42px;
+  line-height: 42px;
+  background: #ff6700;
+  color: #fff;
+}
+.s-main > .s-list > .s-list-b > .s-list-state > div {
+  line-height: 42px;
+}
+.s-main > .s-list > .s-list-b > .s-list-state > div > .xianshi {
+  padding: 14px;
+}
+.s-main > .s-list > .s-list-b > .s-list-state > div > .xiala {
+  text-align: center;
+  float: right;
+  width: 42px;
+  border-left: 1px solid #e8e8e8;
+}
+.s-main > .s-list > .s-list-b > .s-list-phone > div {
+  text-align: center;
+  line-height: 42px;
+}
+.s-main > .s-list > .s-list-b > .s-list-phone > div > .phone-xiala {
+  float: left;
+  width: 72px;
+  border-right: 1px solid #e8e8e8;
+}
+.s-main > .s-list > .s-list-b > .s-list-phone > div > input {
+  width: 236px;
+  height: 42px;
+}
+.l-foot {
+  width: 100%;
+  padding-top: 70px;
+  height: 110px;
+  text-align: center;
+  font-size: 14px;
+  color: #757575;
+}
+.l-foot > p {
+  padding: 10px;
+}
+.l-foot > p > a:hover {
+  color: #333;
+}
