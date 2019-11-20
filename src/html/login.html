@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/login.css">
     <link rel="stylesheet" href="../font/font_iiiyblg4fvi/iconfont.css">
+    <script src="../../node_modules/requirejs/require.js" data-main="../js/login.js"></script>
 </head>
 
 <body>
@@ -27,26 +28,29 @@
 
         <!------------- --------- 注册列表-------------------- -->
         <div>
-            <form action="" class="l-list">
+            <div  class="l-list">
                 <p>
-                    <a href="javascript:;" class="l-list-over">账号登录</a>
+                    <a  class="l-list-over account">账号登录</a>
                     <span></span>
-                    <a href="javascript:;">扫码登录</a>
+                    <a  class="ewm">扫码登录</a>
                 </p>
                 <div class="l-int">
                     <p>
-                        <input type="text" name="" id="" placeholder="邮箱/手机号码/小米ID">
+                        <input type="text" name="" id="user_name" placeholder="邮箱/手机号码/小米ID">
                     </p>
                     <p>
-                        <input type="password" name="" id="" placeholder="密码">
+                        <input type="password" name="" id="user_pass" placeholder="密码">
                     </p>
+                    <div class="iconfont icon-gantanhao err err-none">
+                        用户名或密码错误
+                    </div>
                     <p>
                         <span class="l-submit">登录</span>
                     </p>
                     <p>
                         <a href="javascript:;">手机短信登录/注册</a>
                         <span>
-                            <a href="javascript:;">立即注册</a>
+                            <a href="http://localhost:8080/199854/mi/src/html/sign.html">立即注册</a>
                             <span>|</span>
                             <a href="javascript:;">忘记密码？</a>
                         </span>
@@ -57,13 +61,13 @@
                         </a>
                     </div>
                 </div> 
-                <!-- <div class="l-ma">
+                <div class="l-ma login-none">
                     <img src="../images/towma.png" alt="">
                     <p>使用<span>小米商城APP</span>扫一扫</p>
                     <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
                 </div>
             </form>
-        </div>-->
+        </div>
 
 
     </main>

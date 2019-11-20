@@ -2,6 +2,11 @@
 a {
   color: #616161;
 }
+.edition,
+.color {
+  user-select: none;
+  cursor: pointer;
+}
 .a-main {
   background: #f7f7f7;
 }
@@ -67,16 +72,22 @@ a {
   background: #fff;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-left {
+  height: 560px;
   float: left;
+  position: relative;
+  position: sticky;
+  top: 100px;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis {
   overflow: hidden;
   width: 560px;
   height: 560px;
-  position: relative;
+  position: absolute;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > ul {
   width: 2000px;
+  position: absolute;
+  height: 560px;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > ul > li {
   float: left;
@@ -102,7 +113,7 @@ a {
   margin: 0 5px;
   cursor: pointer;
 }
-.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p {
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-shop-vis-p {
   position: absolute;
   top: 50%;
   width: 41px;
@@ -115,17 +126,17 @@ a {
   cursor: pointer;
   color: #757575;
 }
-.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:nth-of-type(2) {
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-shop-vis-p:nth-of-type(2) {
   right: 518px;
 }
-.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:nth-of-type(2) > span {
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-shop-vis-p:nth-of-type(2) > span {
   font-size: 28px;
 }
-.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p:hover {
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-shop-vis-p:hover {
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
-.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-banner-vis-p > span {
+.a-main > .a-shop-main > #a-shop .a-shop-left > .a-shop-vis > .a-shop-vis-p > span {
   font-size: 24px;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-right {
@@ -314,6 +325,9 @@ a {
   position: relative;
   background: #b0b0b0;
   color: #fff;
+}
+.a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .shop-btn > .like > .likeColor {
+  color: red!important;
 }
 .a-main > .a-shop-main > #a-shop .a-shop-right > .R-main > .fahuo {
   width: 470px;

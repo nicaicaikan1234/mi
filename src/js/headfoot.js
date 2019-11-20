@@ -1,4 +1,4 @@
-define(["jquery"], function ($) {
+define(["jquery","cookie"], function ($,cookie) {
     return {
         // 获取页面头部内容
         getHead: function (val) {
@@ -81,6 +81,39 @@ define(["jquery"], function ($) {
                 $(".head-seek-ul").addClass('disn');
                 $(".head-seek-a").fadeIn(50);
             })
+        },
+
+        //用户显示
+
+        user:function(){
+            var val = cookie.get("user");
+            if (val) {
+                val = JSON.parse(val);
+                console.log(val)
+                $.ajax({
+                    type: "post",
+                    url: "http://localhost:8080/199854/mi/lib/verify.php",
+                    data: {
+                        phone: val.name,
+                        pass: val.pass
+                    },
+                    dataType: "json",
+                    success: function (elm) {
+                        console.log(elm)
+                        if (elm.herf) {
+                            $("#userName").html(elm.name)
+                            $(".denglu").attr("href","javascript:;").html("消息通知");
+                            $(".zhuce").attr("href","javascript:;").html("我的订单");
+                            $(".xiaoxi").addClass("xiaoxi-none");
+                        } else {
+                            $("#userName").html("")
+                            $(".denglu").arrt("href","http://localhost:8080/199854/mi/src/html/login.html").html("登录");
+                            $(".zhuce").arrt("href","http://localhost:8080/199854/mi/src/html/sign.html").html("注册");
+                            $(".xiaoxi").removeClass("xiaoxi-none");
+                        }
+                    }
+                });
+            }
         }
 
     }

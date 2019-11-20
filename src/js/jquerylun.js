@@ -38,7 +38,6 @@
                 elms.btn.on("click", jl(function () {
                     if (elms.btn.index(this)) prev();
                     else next();
-                    console.log(1);
                 },500))
 
                 elms.k.hover(function () {

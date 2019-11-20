@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style/common.css">
     <link rel="stylesheet" href="../style/sign.css">
     <link rel="stylesheet" href="../font/font_iiiyblg4fvi/iconfont.css">
+    <script src="../../node_modules/requirejs/require.js" data-main="../js/sign.js"></script>
 </head>
 
 <body>
@@ -21,28 +22,76 @@
             </a>
             <h2>注册小米账号</h2>
 
+            <!---------------------------------------- 输入手机号码 ---------------------------------------->
+
             <div class="s-list-b">
                 <div class="s-list-state">
                     <p>国家/地区</p>
                     <div>
                         <span class="xianshi">中国</span>
-                        <span class="iconfont icon-xiala xiala" ></span>
+                        <span class="iconfont icon-xiala xiala"></span>
                     </div>
                     <p>成功注册帐号后，国家/地区将不能被修改</p>
                 </div>
                 <div class="s-list-phone">
                     <p>手机号码</p>
                     <div>
-                            <span class="phone-xiala">+86 <span class="iconfont icon-xiala"></span></span>
-                            <input type="text">
+                        <span class="phone-xiala">+86 <span class="iconfont icon-xiala"></span></span>
+                        <input type="text" class="phoneNum">
                     </div>
-                    <p></p>
+                    <span class="iconfont icon-gantanhao s-list-none fontColor errPhone">号码格式错误</span>
                 </div>
                 <div>
-                    <a href="javascript:;">立即注册</a>
+                    <a href="javascript:;" class="zhuce">立即注册</a>
                 </div>
                 <a href="javascript:;">已阅读并同意：小米 <span>用户协议</span> 和 <span>隐私政策</span></a>
             </div>
+
+            <!---------------------------------------- 手机验证  ---------------------------------------->
+
+            <div class="s-list-phone s-list-none list-phone">
+                <p>我们已经发送一条验证短信至<span class="title-phone">+86 12345678912</span></p>
+                <p>请输入短信中的验证码</p>
+                <div>
+                    <input type="text" class="verification">
+
+                    <a href="javascript:;">重新发送</a>
+                    <span class="iconfont icon-gantanhao s-list-none errs">验证码错误或已过期</span>
+                </div>
+                <span class="phone-next">下一步</span>
+                <span class="phone-pre">返回</span>
+            </div>
+
+            <!---------------------------------------- 设置密码 ---------------------------------------->
+
+            <div class="s-list-phone s-list-none list-pass">
+                <p>
+                    <label for="pass">请输入密码</label>
+                    <input type="pass" id="pass">
+                    <span class="iconfont icon-gantanhao s-list-none errp">密码格式错误</span>
+                </p>
+                <p>
+                    <label for="passT">确认密码</label>
+                    <input type="pass" id="passT">
+                    <span class=" iconfont icon-gantanhao s-list-none errpT">密码不相同</span>
+                </p>
+
+                <span class="password-next">提交</span>
+                <span class="password-pre">返回</span>
+            </div>
+
+
+            <!-------------------------------------------- 提示框 -------------------------------------------->
+
+
+            <div class="s-list-phone s-list-none  list-alert">
+
+                <h3 class="tishi"></h3>
+                <span class="login-btn">前往登录</span>
+                <span class="sign-btn">重新注册</span>
+            </div>
+
+
         </div>
 
 

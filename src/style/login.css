@@ -1,4 +1,14 @@
 @charset "utf-8";
+.login-none {
+  display: none!important;
+}
+.err {
+  color: #ff6700;
+  margin-bottom: 10px;
+}
+.err-none {
+  display: none;
+}
 .l-head {
   width: 1130px;
   height: 98px;
@@ -50,7 +60,7 @@
   font-size: 24px;
 }
 .l-main > div > .l-list > p > span {
-  display: inline;
+  display: inline-block;
   width: 1px;
   height: 24px;
   margin: 0 35px 0 42px;

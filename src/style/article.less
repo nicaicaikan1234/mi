@@ -6,6 +6,10 @@
 a {
     color: #616161;
 }
+.edition,.color{
+    user-select: none;
+    cursor: pointer;
+}
 
 .a-main {
 
@@ -91,16 +95,21 @@ a {
             // --------------------左边--------------------
 
             .a-shop-left {
+                height: 560px;
                 float: left;
+                position: relative;
+                position: sticky;
+                top: 100px;
 
                 >.a-shop-vis {
                     overflow: hidden;
                     width: 560px;
                     height: 560px;
-                    position: relative;
-
+                    position: absolute;
                     >ul {
                         width: 2000px;
+                        position: absolute;
+                        height: 560px;
 
                         >li {
                             float: left;
@@ -130,7 +139,7 @@ a {
                             cursor: pointer;
                         }
                     }
-                    >.a-banner-vis-p{
+                    >.a-shop-vis-p{
                         position: absolute;
                         top: 50%;
                         width: 41px;
@@ -384,6 +393,7 @@ a {
                             color: #fff;
                             margin-right: 10px
                         }
+                       
 
                         >.like {
                             width: 140px;
@@ -398,7 +408,9 @@ a {
                             position: relative;
                             background: #b0b0b0;
                             color: #fff;
-
+                            >.likeColor{
+                                color:red!important;
+                            }
                         }
                     }
 

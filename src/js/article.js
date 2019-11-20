@@ -2,10 +2,12 @@ require.config({
     paths: {
         jquery: "../../node_modules/jquery/dist/jquery.min",
         headfoot: './headfoot',
-        ariticleG: "./lib/articleG"
+        ariticleG: "./lib/articleG",
+        jquerylun:'./jquerylun',
+        cookie:"./lib/cookie"
     },
     shim: {
-
+        jquerylun:["jquery"]
     }
 })
 
@@ -15,11 +17,23 @@ require(['jquery', 'headfoot'], function ($, hf) {
     hf.getFoot();
     hf.downList();
     hf.searchBox();
+    hf.user();
 })
 
 // 产品加载
 
-require(["jquery", "ariticleG"], function ($, aG) {
-    aG.getData();
+require(["jquery", "ariticleG","jquerylun"], function ($, aG,jl) {
+    aG.getData(function(){
+        $(".a-shop-vis").lun();
+        aG.like();
+        aG.cut(".edition","edition-over0",function(){
+            aG.total();
+        });
+        aG.cut(".color","color-over0",function(){
+            aG.total();
+        });
+        aG.total();
+        aG.addCar();
+    });
 })
 

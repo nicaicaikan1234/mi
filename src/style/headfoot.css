@@ -1,4 +1,7 @@
 @charset "utf-8";
+.xiaoxi-none {
+  display: none;
+}
 #head > .head-t {
   background: #333;
 }
@@ -191,6 +194,7 @@
   overflow: hidden;
   height: 0;
   position: absolute;
+  z-index: 20;
   top: 140px;
 }
 #head .head-b .head-b-navbtn .head-b-nav-c-li-div {

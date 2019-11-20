@@ -3,9 +3,19 @@
 @mainColo: #ff6700;
 @textColo: #333;
 
+
+.fontColor {
+    color: @mainColo;
+}
+
+
 html,
 body {
     height: 100%;
+}
+
+.s-list-none {
+    display: none !important;
 }
 
 .s-main {
@@ -45,10 +55,12 @@ body {
             margin: 0 auto;
             text-align: center;
             font-size: 14px;
-            >a{
+
+            >a {
                 display: block;
                 margin-top: 60px;
-                >span{
+
+                >span {
                     font-weight: bold;
                     color: @textColo;
                 }
@@ -57,14 +69,16 @@ body {
             >div {
                 text-align: left;
                 margin-bottom: 24px;
+
                 >div {
                     width: 332px;
                     height: 42px;
                     border: 1px solid #e8e8e8;
                     margin: 4px 0;
-                    
+
                 }
-                >a{
+
+                >a {
                     display: block;
                     text-align: center;
                     width: 332px;
@@ -76,32 +90,36 @@ body {
             }
 
             >.s-list-state {
-                >div{
+                >div {
                     line-height: 42px;
-                    >.xianshi{
+
+                    >.xianshi {
                         padding: 14px;
                     }
-                    >.xiala{
+
+                    >.xiala {
                         text-align: center;
                         float: right;
                         width: 42px;
                         border-left: 1px solid #e8e8e8;
-                        
+
                     }
                 }
             }
 
 
-            >.s-list-phone{
-                >div{
+            >.s-list-phone {
+                >div {
                     text-align: center;
                     line-height: 42px;
-                    >.phone-xiala{
+
+                    >.phone-xiala {
                         float: left;
                         width: 72px;
                         border-right: 1px solid #e8e8e8;
                     }
-                    >input{
+
+                    >input {
                         width: 236px;
                         height: 42px;
                     }
@@ -109,6 +127,107 @@ body {
             }
 
         }
+
+
+        >.s-list-phone {
+            width: 332px;
+            padding: 30px 0;
+            line-height: 20px;
+            padding-top: 50px;
+            margin: 0 auto;
+            text-align: left;
+
+            >.h3color {
+                color: @mainColo;
+            }
+
+            >h3 {
+                text-align: center;
+                font-size: 24px;
+                margin: 50px 0;
+            }
+
+            >p {
+                padding-bottom: 10px;
+                line-height: 20px;
+                font-size: 14px;
+                color: #666;
+
+                >input {
+                    width: 312px;
+                    height: 20px;
+                    line-height: 20px;
+                    display: inline-block;
+                    border: 1px solid #e8e8e8;
+                    padding: 10px;
+                    // margin-bottom: 20px;
+                }
+
+                >span {
+                    color: @mainColo;
+                }
+            }
+
+            >div {
+                padding-bottom: 15px;
+
+                >input {
+                    width: 208px;
+                    height: 20px;
+                    line-height: 20px;
+                    display: inline-block;
+                    border: 1px solid #e8e8e8;
+                    padding: 10px;
+                }
+
+                >a {
+                    margin-left: 8px;
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid #e8e8e8;
+                    text-align: center;
+                    padding: 0 10px;
+                    color: #000;
+                }
+
+                >span {
+                    display: block;
+                    color: @mainColo;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            }
+
+
+
+            >span {
+
+                user-select: none;
+                width: 330px;
+                height: 42px;
+                margin: 0 auto;
+                line-height: 42px;
+                text-align: center;
+                font-size: 14px;
+                display: block;
+                cursor: pointer;
+                border: 1px solid #e8e8e8;
+                overflow: hidden;
+                margin-top: 15px;
+            }
+
+            >.phone-next,
+            .password-next,
+            .login-btn {
+                background: @mainColo;
+                color: #fff;
+            }
+
+
+        }
+
+
     }
 }
 

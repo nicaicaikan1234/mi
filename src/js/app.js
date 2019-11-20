@@ -4,7 +4,8 @@ require.config({
         appG:"./lib/appG",
         jquerylun:"./jquerylun",
         headfoot:'./headfoot',
-        jquerylazyloadmin:'./jquerylazyloadmin'
+        jquerylazyloadmin:'./jquerylazyloadmin',
+        cookie:"./lib/cookie"
 
     },
     shim: {
@@ -14,7 +15,8 @@ require.config({
 })
 
 // 头部尾部加载
-require(['jquery', 'headfoot'], function ($, hf) {
+require(['jquery', 'headfoot','cookie'], function ($, hf,cookie) {
+    hf.user();
     hf.getHead();
     hf.getFoot();
     hf.downList();
