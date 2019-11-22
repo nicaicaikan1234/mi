@@ -96,10 +96,8 @@ define(["jquery", "md5"], function ($, md5) {
 
         pass: function (fn) {
 
-            
             let poss1 = false;
             let poss2 = false;
-
 
             $("#pass").on("blur", function () {
                 let reg = [
@@ -109,7 +107,6 @@ define(["jquery", "md5"], function ($, md5) {
                     /\d+/,
                     /\W+/
                 ]
-
                 let check = reg.map(function (val) {
                     return val.test($(this).val());
                 }.bind(this));

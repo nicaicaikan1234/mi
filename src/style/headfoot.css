@@ -2,6 +2,44 @@
 .xiaoxi-none {
   display: none;
 }
+.logo {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin-top: 22px;
+  background: #ff6700;
+  text-indent: -9999px;
+  position: relative;
+  overflow: hidden;
+}
+.logo:hover::before {
+  left: 55px;
+}
+.logo:hover::after {
+  left: 0px;
+}
+.logo::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
+  background: url(../images/mi-logo.png) no-repeat 50% 50%;
+  transition: all 0.2s;
+}
+.logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: -55px;
+  background: url(../images/mi-home.png) no-repeat 50% 50%;
+  transition: all 0.2s;
+}
 #head > .head-t {
   background: #333;
 }
@@ -53,44 +91,6 @@
 }
 #head .head-b .disn {
   display: none;
-}
-#head .head-b .logo {
-  display: block;
-  width: 55px;
-  height: 55px;
-  margin-top: 22px;
-  background: #ff6700;
-  text-indent: -9999px;
-  position: relative;
-  overflow: hidden;
-}
-#head .head-b .logo:hover::before {
-  left: 55px;
-}
-#head .head-b .logo:hover::after {
-  left: 0px;
-}
-#head .head-b .logo::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 55px;
-  height: 55px;
-  background: url(../images/mi-logo.png) no-repeat 50% 50%;
-  transition: all 0.2s;
-}
-#head .head-b .logo::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 0;
-  left: -55px;
-  background: url(../images/mi-home.png) no-repeat 50% 50%;
-  transition: all 0.2s;
 }
 #head .head-b .head-b-nav {
   margin-left: 10px;

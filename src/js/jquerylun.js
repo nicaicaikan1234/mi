@@ -29,7 +29,7 @@
 
             init = function () {
                 elms._index = 0;
-                elms.btn = $(this).children("p").children("span");
+                elms.btn = $(this).children("p");
                 elms.k = $(this).children("ul");
                 elms.li = $(elms.k).children("li")
                 elms.img = $(elms.li).children("img");
@@ -38,7 +38,7 @@
                 elms.btn.on("click", jl(function () {
                     if (elms.btn.index(this)) prev();
                     else next();
-                },500))
+                },800))
 
                 elms.k.hover(function () {
                     stop();

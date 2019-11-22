@@ -1,4 +1,9 @@
 @charset "utf-8";
+.shop-ed {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 a {
   color: #616161;
 }

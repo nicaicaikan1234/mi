@@ -1,0 +1,297 @@
+@charset"utf-8";
+
+@mainColo: #ff6700;
+@textColo: #333;
+
+
+.car-none {
+    display: none!important;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.c-head {
+    font-size: 12px;
+    border-bottom: 2px solid #ff6700;
+    background: #fff;
+    color: #b0b0b0;
+    height: 100px;
+
+    >.c-head-main {
+        width: 1226px;
+        margin: 0 auto;
+
+        >.c-head-left {
+
+            margin-top: 26px;
+            float: left;
+
+            >a {
+                float: left;
+                margin: 0 56px 0 0;
+
+            }
+
+            >h2 {
+                float: left;
+                font-size: 28px;
+                line-height: 48px;
+                font-weight: normal;
+                color: #424242;
+            }
+        }
+
+        >.c-head-right {
+            height: 40px;
+            line-height: 40px;
+            margin-top: 30px;
+            float: right;
+
+        }
+
+    }
+}
+
+.car-main {
+    width: 1226px;
+    margin: 0 auto;
+
+    >.no-shop {
+        height: 273px;
+        padding-left: 558px;
+        margin: 104px 0 130px;
+        background: url(../images/shopcar.jpg) no-repeat 200px 0;
+        background-size: contain;
+        color: #b0b0b0;
+
+
+        >h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            padding-top: 50px;
+        }
+
+        >p {
+            margin: 0 0 20px;
+            font-size: 20px;
+        }
+
+        >a {
+            display: inline-block;
+            width: 170px;
+            height: 48px;
+            line-height: 48px;
+            border: 1px @mainColo solid;
+            text-align: center;
+            color: @mainColo;
+            font-size: 14px;
+
+        }
+
+        >.car-denglu {
+            background: @mainColo;
+            color: #fff;
+            margin-right: 20px;
+            transition: all 0.5s;
+
+            &:hover {
+                background: #f25807;
+            }
+        }
+
+    }
+
+    >.shops-car {
+        width: 100%;
+
+        >.shop-data {
+            padding-top: 38px;
+
+            >.shops-data {
+                padding: 15px 0;
+                height: 86px;
+                line-height: 86px;
+
+                >.shop-data-li3{
+                    font-size: 18px;
+                }
+            }
+
+            >.shops-title {
+                height: 70px;
+                border-top: 0 !important;
+
+                >li {
+                    line-height: 70px;
+
+                }
+            }
+
+            >ul {
+                background: #fff;
+                border-top: 1px solid #e0e0e0;
+
+                >li {
+                    float: left;
+                    height: 100%;
+                    color: #424242;
+                    font-size: 14px;
+
+                }
+
+                >.shop-data-li1 {
+                    width: 110px;
+
+                    >span {
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        line-height: 20px;
+                        border: 1px solid #e0e0e0;
+                        margin-left: 24px;
+                        background-color: #fff;
+                        font-size: 12px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+
+                >.shop-data-li2 {
+                    width: 120px;
+                    >img{
+                        height: 100%;
+                    }
+                }
+
+                >.shop-data-li3 {
+                    width: 380px;
+                }
+
+                >.shop-data-li4 {
+                    text-align: center;
+                    width: 140px;
+                    padding-right: 18px;
+                }
+
+                >.shop-data-li5 {
+                    text-align: center;
+                    width: 150px;
+
+                    >div {
+                        width: 148px;
+                        height: 38px;
+                        border: 1px solid #e0e0e0;
+                        margin-top: 24px;
+
+                        >input {
+                            float: left;
+                            width: 72px;
+                            height: 38px;
+                            line-height: 38px;
+                            color: #424242;
+                            font-size: 16px;
+                            text-align: center;
+
+                        }
+
+
+                        >span {
+                            float: left;
+                            width: 38px;
+                            height: 38px;
+                            line-height: 38px;
+                            color: #757575;
+                            cursor: pointer;
+                            transition: all 0.5s;
+                            &:hover{
+                                background: #eee;
+                            }
+                        }
+                    }
+                }
+
+                >.shop-data-li6 {
+                    text-align: right;
+                    width: 120px;
+                    padding-right: 81px;
+                    color: @mainColo;
+                }
+
+                >.shop-data-li7 {
+                    text-align: center;
+                    width: 80px;
+                    >span{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+
+        >.closing {
+            margin-top: 20px;
+            width: 100%;
+            background: #fff;
+
+            >.fl {
+                line-height: 40px;
+                font-size: 14px;
+
+                >a {
+                    margin-left: 30px;
+                    color: #757575;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        color: @mainColo;
+                    }
+                }
+
+                >span {
+                    color: #757575;
+
+                    >span {
+                        color: @mainColo;
+                    }
+                }
+
+                >.halving {
+                    color: #eee;
+
+                    display: inline-block;
+                    margin: 0 30px;
+                }
+            }
+
+            >.fr {
+                >span {
+                    line-height: 40px;
+                    float: left;
+                    color: @mainColo;
+
+                    >span {
+                        font-size: 30px;
+                    }
+                }
+
+
+                >a {
+                    float: right;
+                    width: 200px;
+                    height: 48px;
+                    line-height: 48px;
+                    font-size: 18px;
+                    margin-left: 50px;
+                    text-align: center;
+                    background: @mainColo;
+                    color: #fff;
+                }
+
+            }
+
+        }
+    }
+
+}

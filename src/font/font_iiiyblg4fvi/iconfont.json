@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "529428",
+      "name": "√",
+      "font_class": "anonymous-iconfont",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "538489",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
       "icon_id": "538638",
       "name": "钟",
       "font_class": "zhong",
@@ -62,6 +76,13 @@
       "unicode_decimal": 59260
     },
     {
+      "icon_id": "2104880",
+      "name": "删除筛选项",
+      "font_class": "chushaixuanxiang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
       "icon_id": "2177627",
       "name": "礼物",
       "font_class": "liwu",
@@ -97,6 +118,13 @@
       "unicode_decimal": 58894
     },
     {
+      "icon_id": "3442328",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
       "icon_id": "3607845",
       "name": "15天无优换货",
       "font_class": "fifteenday",
@@ -109,6 +137,13 @@
       "font_class": "sevenday",
       "unicode": "e504",
       "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "3835061",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e51f",
+      "unicode_decimal": 58655
     },
     {
       "icon_id": "4144176",

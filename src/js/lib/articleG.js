@@ -193,14 +193,16 @@ define(["jquery", 'cookie'], function ($, cookie) {
             $(".addcar").on("click", function () {
                 let edition = $(".edition-over0").children('.shop-ed').text();
                 let price = $(".edition-over0").children('.shop-price').text();
-                let color = $(".color-over0").children('.color-name').text();
+                let color = $(".color-over0").children('.color-name').text();;
+                let img = $(".a-banner-one").attr("src");
                 let shop = cookie.get('shop');
                 let shopName = $(".shop-name-h2").text();
                 let val = {};
                 val = {
                     Name: shopName + edition + color,
                     price: price,
-                    num: 1
+                    num: 1,
+                    img:img
                 }
 
                 if (shop) {
@@ -214,13 +216,15 @@ define(["jquery", 'cookie'], function ($, cookie) {
                     })
                     if (!you) {
                         shop.push(val);
-                        console.log(shop)
                     }
                 } else {
                     shop = [val];
                 }
                 cookie.set('shop', JSON.stringify(shop), 1);
+                alert("添加成功");
             })
+
+            
 
         }
 

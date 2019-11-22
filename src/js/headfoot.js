@@ -1,7 +1,7 @@
 define(["jquery","cookie"], function ($,cookie) {
     return {
         // 获取页面头部内容
-        getHead: function (val) {
+        getHead: function (val,fn) {
 
             $.ajax({
                 type: "get",
@@ -9,8 +9,10 @@ define(["jquery","cookie"], function ($,cookie) {
                 success: function (response) {
                     $("#head")[0].innerHTML = response;
                     val&&$(val).css("display","none");
+                    if(fn)fn();
                 }
             });
+           
             
         },
         // 获取页面尾部内容
@@ -89,7 +91,6 @@ define(["jquery","cookie"], function ($,cookie) {
             var val = cookie.get("user");
             if (val) {
                 val = JSON.parse(val);
-                console.log(val)
                 $.ajax({
                     type: "post",
                     url: "http://localhost:8080/199854/mi/lib/verify.php",
@@ -99,9 +100,8 @@ define(["jquery","cookie"], function ($,cookie) {
                     },
                     dataType: "json",
                     success: function (elm) {
-                        console.log(elm)
                         if (elm.herf) {
-                            $("#userName").html(elm.name)
+                            $("#userName").html(elm.name+'<span class="iconfont icon-xiala"></span>')
                             $(".denglu").attr("href","javascript:;").html("消息通知");
                             $(".zhuce").attr("href","javascript:;").html("我的订单");
                             $(".xiaoxi").addClass("xiaoxi-none");
@@ -114,6 +114,27 @@ define(["jquery","cookie"], function ($,cookie) {
                     }
                 });
             }
+        },
+
+        //购物车显示
+
+        shopshow:function(){
+            let shop = JSON.parse(cookie.get("shop"));
+            if(cookie.get("user")){
+                $(".header-shop-num").text(shop.length);
+                if(shop.length){
+                    $(".shopcar").css({
+                        background:"#ff6700",
+                        color:"#fff"
+                    })
+                }else{
+                    $(".shopcar").css({
+                        background:"#424242",
+                        color:"#b0b0b0"
+                    })
+                }
+            }
+            
         }
 
     }

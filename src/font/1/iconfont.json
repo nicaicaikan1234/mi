@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "529428",
+      "name": "√",
+      "font_class": "anonymous-iconfont",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "538489",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
       "icon_id": "538638",
       "name": "钟",
       "font_class": "zhong",
@@ -18,6 +32,13 @@
       "font_class": "zoom",
       "unicode": "e60d",
       "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1065435",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
     },
     {
       "icon_id": "1105010",
@@ -55,11 +76,25 @@
       "unicode_decimal": 59260
     },
     {
+      "icon_id": "2104880",
+      "name": "删除筛选项",
+      "font_class": "chushaixuanxiang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
       "icon_id": "2177627",
       "name": "礼物",
       "font_class": "liwu",
       "unicode": "e601",
       "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2502364",
+      "name": "感叹号",
+      "font_class": "gantanhao",
+      "unicode": "e574",
+      "unicode_decimal": 58740
     },
     {
       "icon_id": "2895967",
@@ -97,6 +132,13 @@
       "unicode_decimal": 58628
     },
     {
+      "icon_id": "3835061",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e51f",
+      "unicode_decimal": 58655
+    },
+    {
       "icon_id": "4144176",
       "name": "客服 耳机 人工服务 面性",
       "font_class": "kefuerjirengongfuwumianxing",
@@ -132,6 +174,13 @@
       "unicode_decimal": 59008
     },
     {
+      "icon_id": "5968340",
+      "name": "下  拉",
+      "font_class": "xiala",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
       "icon_id": "8252048",
       "name": "扳手",
       "font_class": "icon_repair",
@@ -144,6 +193,13 @@
       "font_class": "youjiantou",
       "unicode": "e51d",
       "unicode_decimal": 58653
+    },
+    {
+      "icon_id": "11258723",
+      "name": "红心",
+      "font_class": "hongxin",
+      "unicode": "e506",
+      "unicode_decimal": 58630
     },
     {
       "icon_id": "11672143",

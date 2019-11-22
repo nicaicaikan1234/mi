@@ -17,7 +17,11 @@ require.config({
 // 头部尾部加载
 require(['jquery', 'headfoot','cookie'], function ($, hf,cookie) {
     hf.user();
-    hf.getHead();
+    hf.getHead(function(){
+        console.log(1)
+        hf.user();
+        hf.shopshow();
+    });
     hf.getFoot();
     hf.downList();
     hf.searchBox();
@@ -28,6 +32,7 @@ require(['jquery', 'headfoot','cookie'], function ($, hf,cookie) {
 require(['jquery', 'appG'], function ($, ag) {
     ag.getShop();
     ag.xxk();
+    ag.huiding();
 })
 
 //图片懒加载

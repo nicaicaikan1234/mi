@@ -13,7 +13,9 @@ require.config({
 
 // 头部尾部加载
 require(['jquery', 'headfoot'], function ($, hf) {
-    hf.getHead(".head-b-nav-c-banner");
+    hf.getHead(".head-b-nav-c-banner",function(){
+        hf.shopshow();
+    });
     hf.getFoot();
     hf.downList();
     hf.searchBox();

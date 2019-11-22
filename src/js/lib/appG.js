@@ -45,6 +45,25 @@ define(["jquery"], function ($) {
         }
 
       })
+    },
+
+    huiding:function(){
+      function hui(){
+        if($(document).scrollTop()>$("#i-main").offset().top){
+          $(".huiding").removeClass("val-none");
+          console.log(1)
+        }else{
+          $(".huiding").addClass("val-none");
+          console.log(2)
+        }
+      }
+      $(window).on("scroll",function(){
+        hui();
+      })
+      hui();
+      $(".huiding").on("click",function(){
+        $(document).scrollTop(0);
+      })
     }
   }
 })
