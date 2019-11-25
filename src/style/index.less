@@ -8,8 +8,8 @@
     margin: 0 auto;
 }
 
-.val-none{
-    display: none!important;
+.val-none {
+    display: none !important;
 }
 
 h2 {
@@ -194,21 +194,25 @@ h2 {
         text-align: center;
         font-size: 14px;
         transition: all 0.5s;
-        >p{
+
+        >p {
             font-size: 30px;
             margin-top: 20px;
             margin-bottom: 10px;
         }
-        &:hover{
+
+        &:hover {
             color: @mainColo;
         }
 
         &:last-of-type {
             margin-top: 24px;
-            >p{
-                margin:0;
+
+            >p {
+                margin: 0;
                 line-height: 90px;
             }
+
             // display: none;
 
         }
@@ -418,7 +422,7 @@ h2 {
 
             >.i-box1-m {
 
-
+                position: relative;
 
                 .i-box1-m-1 {
                     float: left;
@@ -472,6 +476,38 @@ h2 {
                     }
                 }
 
+                .i-box1-m-btn {
+                    position: absolute;
+                    top: -36px;
+                    right: 0;
+                    z-index: 20;
+
+                    >span {
+                        float: left;
+                        width: 24px;
+                        height: 16px;
+                        padding: 3px 5px;
+                        margin-left: -1px;
+                        border: 1px solid #e0e0e0;
+                        font-size: 16px;
+                        line-height: 16px;
+                        background: #fff;
+                        vertical-align:middle;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+
+                    >.i-box1-m-left {
+                        line-height: 17px;
+                        >span {
+                            font-size: 20px;
+                            
+                        }
+
+                    }
+                }
+
+
                 >.i-box1-m-2 {
                     float: left;
                     width: 978px;
@@ -479,7 +515,10 @@ h2 {
                     overflow: hidden;
                     position: relative;
 
+
+
                     >.i-box1-m-ul {
+                        position: relative;
                         width: 5000px;
 
                         >.i-box1-ul-li {
@@ -722,4 +761,8 @@ h2 {
 
 
 
+}
+
+.left-right{
+    color: #e0e0e0;
 }

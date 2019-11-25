@@ -119,21 +119,24 @@ define(["jquery","cookie"], function ($,cookie) {
         //购物车显示
 
         shopshow:function(){
-            let shop = JSON.parse(cookie.get("shop"));
-            if(cookie.get("user")){
-                $(".header-shop-num").text(shop.length);
-                if(shop.length){
-                    $(".shopcar").css({
-                        background:"#ff6700",
-                        color:"#fff"
-                    })
-                }else{
-                    $(".shopcar").css({
-                        background:"#424242",
-                        color:"#b0b0b0"
-                    })
+            if(cookie.get("shop")){
+                let shop = JSON.parse(cookie.get("shop"));
+                if(cookie.get("user")){
+                    $(".header-shop-num").text(shop.length);
+                    if(shop.length){
+                        $(".shopcar").css({
+                            background:"#ff6700",
+                            color:"#fff"
+                        })
+                    }else{
+                        $(".shopcar").css({
+                            background:"#424242",
+                            color:"#b0b0b0"
+                        })
+                    }
                 }
             }
+           
             
         }
 
